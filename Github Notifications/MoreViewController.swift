@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  MoreViewController.swift
 //  Github Notifications
 //
 //  Created by Mohsen Azimi on 1/18/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class MoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8289C1511A6CCD48002CF786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289C1501A6CCD48002CF786 /* AppDelegate.swift */; };
-		8289C1531A6CCD48002CF786 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289C1521A6CCD48002CF786 /* FirstViewController.swift */; };
-		8289C1551A6CCD48002CF786 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289C1541A6CCD48002CF786 /* SecondViewController.swift */; };
+		8289C1531A6CCD48002CF786 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289C1521A6CCD48002CF786 /* NotificationsViewController.swift */; };
+		8289C1551A6CCD48002CF786 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289C1541A6CCD48002CF786 /* MoreViewController.swift */; };
 		8289C1581A6CCD48002CF786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8289C1561A6CCD48002CF786 /* Main.storyboard */; };
 		8289C15A1A6CCD48002CF786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8289C1591A6CCD48002CF786 /* Images.xcassets */; };
 		8289C15D1A6CCD48002CF786 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8289C15B1A6CCD48002CF786 /* LaunchScreen.xib */; };
 		8289C1691A6CCD48002CF786 /* Github_NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289C1681A6CCD48002CF786 /* Github_NotificationsTests.swift */; };
+		8289C1731A6D9C1A002CF786 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289C1721A6D9C1A002CF786 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +31,15 @@
 		8289C14B1A6CCD48002CF786 /* Github Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8289C14F1A6CCD48002CF786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8289C1501A6CCD48002CF786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8289C1521A6CCD48002CF786 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8289C1541A6CCD48002CF786 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8289C1521A6CCD48002CF786 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		8289C1541A6CCD48002CF786 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		8289C1571A6CCD48002CF786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8289C1591A6CCD48002CF786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8289C15C1A6CCD48002CF786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8289C1621A6CCD48002CF786 /* Github NotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Github NotificationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8289C1671A6CCD48002CF786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8289C1681A6CCD48002CF786 /* Github_NotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_NotificationsTests.swift; sourceTree = "<group>"; };
+		8289C1721A6D9C1A002CF786 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				8289C1501A6CCD48002CF786 /* AppDelegate.swift */,
-				8289C1521A6CCD48002CF786 /* FirstViewController.swift */,
-				8289C1541A6CCD48002CF786 /* SecondViewController.swift */,
+				8289C1521A6CCD48002CF786 /* NotificationsViewController.swift */,
+				8289C1541A6CCD48002CF786 /* MoreViewController.swift */,
+				8289C1721A6D9C1A002CF786 /* LoginViewController.swift */,
 				8289C1561A6CCD48002CF786 /* Main.storyboard */,
 				8289C1591A6CCD48002CF786 /* Images.xcassets */,
 				8289C15B1A6CCD48002CF786 /* LaunchScreen.xib */,
@@ -215,9 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8289C1551A6CCD48002CF786 /* SecondViewController.swift in Sources */,
+				8289C1731A6D9C1A002CF786 /* LoginViewController.swift in Sources */,
+				8289C1551A6CCD48002CF786 /* MoreViewController.swift in Sources */,
 				8289C1511A6CCD48002CF786 /* AppDelegate.swift in Sources */,
-				8289C1531A6CCD48002CF786 /* FirstViewController.swift in Sources */,
+				8289C1531A6CCD48002CF786 /* NotificationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
